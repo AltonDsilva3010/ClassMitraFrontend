@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: arial;
+  background-color: floralwhite;
+}
+.navbar {
+  height: 60px;
+}
+.quote-img {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("img/books1.jpg");
+  background-image: url("img/books.jpg");
+  height: 60vh;
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+.quote-txt {
+  padding: 8%;
+  /* text-align: center; */
+  justify-content: center;
+  margin-top: 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 0.9rem;
+  color: wheat;
+}
+.title {
+  text-align: center;
+  padding: 3%;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: 50%;
+  background-color: rgba(228, 191, 44, 0.486);
+  display: inline-block;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.image img {
+  /* width: 250px; */
+  width: 84%;
+  height: auto;
+  padding: 8%;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.details {
+  text-align: left;
+  padding: 10px;
+  font-size: 8px;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+button:hover {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 300px) {
+  .quote {
+    display: none;
+  }
+}

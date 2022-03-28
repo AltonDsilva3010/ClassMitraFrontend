@@ -1,0 +1,119 @@
+.classroom-container {
+  height: 100vh;
+  margin: 15px 125px 5px 125px;
+  border-radius: 10px;
+}
+
+.img-container img {
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-container h3 {
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  top: 430px;
+  left: 200px;
+  font-size: 35px;
+}
+
+.img-container p {
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  top: 437px;
+  left: 525px;
+  font-size: 25px;
+}
+
+.all-lists {
+}
+
+.assignments-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #aeaeae;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+.assignments-container h3 {
+  margin-top: 20px;
+  margin: 15px 0px 5px 0px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.list-container {
+  border-radius: 10px;
+  margin: 15px 200px 15px 200px;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.list-container::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.list-container::-webkit-scrollbar-thumb {
+  background-color: #060b26; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #aeaeae; /* creates padding around scroll thumb */
+}
+
+.list-container li {
+  list-style: none;
+}
+
+.list-container li a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-box {
+  height: 45px;
+  margin: 10px 0px 10px 0px;
+  background-color: #060b26;
+  border-radius: 5px;
+  padding-top: 12px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon {
+  margin-left: 30px;
+  margin-right: 425px;
+}
+
+.creation-container {
+  background-color: #aeaeae;
+  margin: 30px 0px 10px 0px;
+  border-radius: 10px;
+  display: flex;
+  color: #060b26;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.creation-container h3 {
+  font-size: 25px;
+  margin-left: 40px;
+  padding: 24px 10px 10px 40px;
+}
+
+.creation-container h3 a {
+  text-decoration: none;
+  color: #060b26;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+.creation-container h3 a:hover {
+  background-color: #060b26;
+  color: white;
+}

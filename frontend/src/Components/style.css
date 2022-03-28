@@ -1,0 +1,64 @@
+.container-fluid {
+  padding: 0px;
+}
+
+.col-sm-6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.panel {
+  box-shadow: none;
+  vertical-align: middle;
+  align-content: center;
+  align-items: center;
+}
+
+.login-img {
+  background-image: url("img/login.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.btn {
+  background-color: rgb(74, 198, 255);
+  color: #000;
+  width: 100%;
+}
+
+.form-form {
+  height: 100vh;
+  padding: 8%;
+}
+
+.panel-footer {
+  border: none;
+  background: none;
+}
+
+@media screen and (max-width: 768px) {
+  .login-img {
+    display: none;
+  }
+  .signup-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .panel-footer {
+    padding: 0px;
+  }
+}
+
+.signup-img {
+  background-image: url("img/signup.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.form-group {
+  border: none;
+}
